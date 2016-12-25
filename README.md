@@ -1,6 +1,6 @@
 # sankyo-ict3k
 
-Sankyo ICT3K5 library wrapper for Node.js. Should work with their ICT3K5/ICT3k7 card readers.
+Sankyo ICT3K5 library wrapper for Node.js. Should work with their ICT3K5/ICT3k7 card readers. Will work on Windows and only on 32bit Node.js due ti library's limitations.
 
 ## Installation
 
