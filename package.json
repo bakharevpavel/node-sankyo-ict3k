@@ -1,0 +1,22 @@
+{
+	"name": "sankyo-ict3k",
+	"description": "Sankyo ICT3K5 library wrapper for Node.js. Should work with their ICT3K5/ICT3k7 devices.",
+	"version": "1.0.0",
+  	"main": "index.js",
+  	"scripts": {
+    	"configure": "node-gyp configure",
+    	"build": "node-gyp build",
+    	"postinstall": "node postinstall.js"
+  	},
+  	"gypfile": true,
+  	 "keywords": ["sankyo", "ict3k", "ict3k5", "ict3k7", "cardreader"],
+  	"devDependencies": {
+    	"nan": "^2.0.5"
+  	},
+  	"author": "Pavel Bakharev",
+  	"license": "MIT",
+  	"repository": {
+    	"type": "git",
+    	"url": "git+https://github.com/bakharevpavel/node-sankyo-ict3k.git"
+  	}
+}
