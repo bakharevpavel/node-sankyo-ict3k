@@ -10,7 +10,7 @@
   	},
   	"gypfile": true,
   	 "keywords": ["sankyo", "ict3k", "ict3k5", "ict3k7", "cardreader"],
-  	"devDependencies": {
+  	"dependencies": {
     	"nan": "^2.0.5"
   	},
   	"author": "Pavel Bakharev",
