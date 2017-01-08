@@ -49,7 +49,7 @@ Disconnects from the device.
 ```js
 
 const ict3k = require('sankyo-cardreader');
-ict3k.connect({port: "COM4", baudRate: 115200}, function(res) { // connect do the device
+ict3k.connect({port: "COM4", baudRate: 115200}, function(res) { // connect to the device
 	console.log(res);
 	ict3k.exec({
     	command: 0x30,
