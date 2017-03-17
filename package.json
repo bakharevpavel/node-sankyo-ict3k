@@ -1,7 +1,7 @@
 {
 	"name": "sankyo-ict3k",
 	"description": "Sankyo ICT3K5 library wrapper for Node.js.",
-	"version": "1.0.4",
+	"version": "1.0.5",
   	"main": "index.js",
   	"scripts": {
     	"configure": "node-gyp configure",
@@ -17,6 +17,6 @@
   	"license": "MIT",
   	"repository": {
     	"type": "git",
-    	"url": "git+https://github.com/bakharevpavel/node-sankyo-ict3k.git"
+    	"url": "git+https://github.com/star-collector/node-sankyo-ict3k.git"
   	}
 }
